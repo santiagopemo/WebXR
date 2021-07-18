@@ -13,11 +13,14 @@
 } */
 .webgl-content {
   background-color: white;
-  top: 50%;
+  top: 54%;
   left: 50%;
-  /* border: solid 3px white; */
-  width: 960px;
-  height: 600px;
+  position: absolute;
+  /* border: solid 3px black; */
+  /* width: 960px;
+  height: 600px; */
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .webgl-content .logo,
@@ -132,6 +135,16 @@ body {
 
 #header,
 #instructions {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#header {
+  position: absolute;
+  top: 3%;
+}
+#instructions {
+  position: absolute;
+  top: 90%;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
