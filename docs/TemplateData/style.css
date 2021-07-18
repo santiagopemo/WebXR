@@ -190,17 +190,19 @@ a {
 }
 #instructions #players {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .instructions-container {
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   border: solid black;
   padding: 10px 50px 30px 50px;
   margin: 10px 40px;
+  min-width: 500px;
 }
 
 .instructions-container h2 {
