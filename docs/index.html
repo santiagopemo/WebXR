@@ -23,6 +23,11 @@
     </script>
   </head>
   <body>
+    <div id="header">
+      <h1>WebXR Room</h1>
+      <!-- <h2>By Santiago Peña Mosquera</h2> -->
+      <a href="#instructions"><p>(See Instructions Below)</p></a>
+    </div>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
@@ -31,6 +36,28 @@
         <button class="enterar" id="enterar" value="Enter AR" disabled>AR</button>
         <div class="webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
         <div class="title">0x0E-unity-webvr</div>
+      </div>
+    </div>
+    <div id="instructions">
+      <h1>Instructions</h1>
+      <p id="description"></p>
+      <div id="players">
+        <div class="instructions-container">
+          <h2>Browser</h2>
+          <ul>
+            <li><p><strong>Move:</strong> A/W/S/D</p></li>
+            <li><p><strong>Grab Item:</strong> Left_Click</p></li>
+            <li><p><strong>Move Camera:</strong> Hold Rigth_Click</p></li>
+          </ul>
+        </div>
+        <div class="instructions-container">
+          <h2>VR Devices</h2>
+          <p>Depends on your device, but for most cases:</p>
+          <ul>
+            <li><p><strong>Move:</strong> Joystick_Axes</p></li>
+            <li><p><strong>Grab Item:</strong> Trigger</p></li>
+          </ul>
+        </div>
       </div>
     </div>
     <script>
